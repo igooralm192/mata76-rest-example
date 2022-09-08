@@ -4,7 +4,12 @@
   "main": "index.js",
   "repository": "git@github.com:igooralm192/mata76-rest-example.git",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "dependencies": {
-    "express": "^4.18.1"
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
   }
 }
